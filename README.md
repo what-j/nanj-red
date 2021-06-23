@@ -5,12 +5,21 @@
 *&mdash;&mdash;&mdash; Hiroyuki Nishimura, Founder of 5ch.net, Japan*
 
 ## Join the Project
-Let's join our [Discord](https://discord.gg/UEzW2dvS).
+Let's join our community.
+
+[Discord](https://discord.gg/UEzW2dvS)
+
 You can contribute to the team in many ways on your talent.
 
 #### Developer
 ###### Quick start
 ```bash
+# create your environment file
+echo CMS_API_URL='' >> .env
+echo X_API_KEY='' >> .env
+echo X_WRITE_API_KEY='' >> .env
+...
+
 # install dependencies
 npm install
 
@@ -22,8 +31,8 @@ npm run export
 ```
 ###### Branches
 - [main](https://github.com/nanj-red/nanj-red/tree/main/)
-- [docs](https://github.com/nanj-red/nanj-red/tree/docs/)
 - [dev](https://github.com/nanj-red/nanj-red/tree/dev/)
+<!-- - [docs](https://github.com/nanj-red/nanj-red/tree/docs/) -->
 
 #### Creator
 Your article will be reviewed by members and then published our website. 
